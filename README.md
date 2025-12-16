@@ -17,7 +17,7 @@ A console-based trivia game built in Python using client-server architecture. Th
 
 ### Instructions
 
-#### 1. Clone repository
+#### 1. Clone the repository
 ```bash
 git clone https://github.com/ttyoma/trivia-net.git
 cd trivia-net
@@ -55,7 +55,7 @@ CONNECT 127.0.0.1:7777
 #### 4. Play the trivia game
  Answer the questions within the time limit and have fun
 
- Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. For a config to work, it must follow the following format 
+ Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. For a config to work, it must follow the following format:
 ```
  {
  "port": <int>,
