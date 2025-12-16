@@ -58,10 +58,10 @@ CONNECT 127.0.0.1:7777
  Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
  
 
-# Context
+## Context
 This project was originally developed as part of a university networking assignment for INFO1112 Computing 1B OS and Network Platforms. As such, this implementation has some design choices that adhere to the assignment specifications. This repository has been cleaned of any private specifications, and the assignment specifications are NOT attached as per university rules. This project is solely for learning, experimentation and portfolio demonstration. 
 
-# Design Assumptions
+## Design Assumptions
 
 - The server waits for a fixed number of players (as defined in the server config)
   before starting a game.
@@ -85,7 +85,7 @@ The client supports three different modes of playing:
 
 Note: The AI response is not guaranteed to always be correct
 
-# Configuration Notes
+## Configuration Notes
 - As mentioned before, server and client behavior is configurable via JSON files.
 - All textual output (questions, feedback, leaderboards etc.) can be modified without altering the source code
 - This allows for easier experimentation with pacing, difficulty, wording, localizations etc.
@@ -112,7 +112,7 @@ For a config to work, it must follow the following format:
 }
 ```
 
-# Troubleshooting
+
 ## Troubleshooting
 
 **Server appears to hang on startup**
@@ -127,7 +127,7 @@ For a config to work, it must follow the following format:
 - If Ollama is unavailable, use `manual` or `auto` mode instead.
 
 
-# License
+## License
 This project is licensed under the [Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
 Feel free to use/modify this project for your own study learning or other non-commercial purposes, but provide credit when sharing online.
 
