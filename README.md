@@ -53,9 +53,10 @@ CONNECT 127.0.0.1:7777
 ```
 
 #### 4. Play the trivia game
- Answer the questions within the time limit and have fun
+Once the game begins, questions will be presented to each client. 
+Submit your answers within the allotted time and follow the indicated feedback and leaderboard updates as the game progresses.
 
- Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
+Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
  
 
 ## Context
