@@ -1,0 +1,28 @@
+{
+  "port": 7777,
+  "players": 2,
+  "question_types": [
+    "Mathematics",
+    "Roman Numerals",
+    "Usable IP Addresses of a Subnet",
+    "Network and Broadcast Address of a Subnet"
+  ],
+  
+  "question_formats": {
+    "Mathematics": "What is {}?",
+    "Roman Numerals": "What is the value of {} in decimal?",
+    "Usable IP Addresses of a Subnet": "How many usable IP addresses are there in {}?",
+    "Network and Broadcast Address of a Subnet": "What are the network and broadcast addresses of {}?"
+  },
+  "question_seconds": 10.55,
+  "question_interval_seconds": 5.5,
+  "ready_info": "Game starts in {question_interval_seconds} seconds with {total_questions} questions and {players} players!",
+  "question_word": "Question",
+  "correct_answer": "{answer} is the correct answer!",
+  "incorrect_answer": "{answer} is the incorrect answer. The correct answer was {correct_answer}",
+  "points_noun_singular": "point",
+  "points_noun_plural": "points",
+  "final_standings_heading": "Final standings:",
+  "one_winner": "The winner is {}",
+  "multiple_winners": "Winners: {}"
+}

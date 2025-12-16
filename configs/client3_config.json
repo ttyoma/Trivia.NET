@@ -1,0 +1,9 @@
+{
+  "username": "robot",
+  "client_mode": "ai",
+  "ollama_config": {
+    "ollama_host": "localhost",
+    "ollama_port": 11434,
+    "ollama_model": "mistral:latest"
+  }
+}
