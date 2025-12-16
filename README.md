@@ -53,11 +53,13 @@ CONNECT 127.0.0.1:7777
 ```
 
 #### 4. Play the trivia game
-Once the game begins, questions will be presented to each client. 
-Submit your answers within the allotted time and follow the indicated feedback and leaderboard updates as the game progresses.
+After all the players have connected, the server will begin the game.
+
+All connected clients receive trivia questions and submit answers in real time.
+
+Feedback and leaderboard updates are subsequently provided.
 
 Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
- 
 
 ## Context
 This project was originally developed as part of a university networking assignment for INFO1112 Computing 1B OS and Network Platforms. As such, this implementation has some design choices that adhere to the assignment specifications. This repository has been cleaned of any private specifications, and the assignment specifications are NOT attached as per university rules. This project is solely for learning, experimentation and portfolio demonstration. 
