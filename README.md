@@ -70,7 +70,7 @@ This project was originally developed as part of a university networking assignm
 - Clients are expected to follow the defined JSON protocol.
 - The server assumes well-formed configuration files.
 
-# Client Modes
+## Client Modes
 The client supports three different modes of playing:
 - **manual (`you`)**  
   The client answers questions manually via standard input
