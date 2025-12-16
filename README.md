@@ -62,7 +62,7 @@ Feedback and leaderboard updates are subsequently provided.
 Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
 
 ## Context
-This project was originally developed as part of a university networking assignment for INFO1112 Computing 1B OS and Network Platforms. As such, this implementation has some design choices that adhere to the assignment specifications. This repository has been cleaned of any private specifications, and the assignment specifications are NOT attached as per university rules. This project is solely for learning, experimentation and portfolio demonstration. 
+This project was originally developed as part of a university networking assignment for INFO1112 Computing 1B OS and Network Platforms. As such, this implementation has some design choices that adhere to the assignment specifications. This repository has been cleaned and contains only the public implementation. Private course materials have been intentionally omitted in accordance with university policies. This project is solely for learning, experimentation, and portfolio demonstration. 
 
 ## Design Assumptions
 
