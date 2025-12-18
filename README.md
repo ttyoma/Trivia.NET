@@ -53,11 +53,11 @@ CONNECT 127.0.0.1:7777
 ```
 
 #### 4. Play the trivia game
-After all the players have connected, the server will begin the game.
+After all the players have connected, the server will begin the game
 
-All connected clients receive trivia questions and submit answers in real time.
+All connected clients receive trivia questions and submit answers in real time
 
-Feedback and leaderboard updates are subsequently provided.
+Feedback and leaderboard updates are subsequently provided
 
 Note: Feel free to modify the existing configs/add your own JSON configs to play around with the program. (See Configuration Notes for more info)
 
@@ -67,11 +67,11 @@ This project was originally developed as part of a university networking assignm
 ## Design Assumptions
 
 - The server waits for a fixed number of players (as defined in the server config)
-  before starting a game.
-- If fewer players connect than required, the server will wait indefinitely.
-- Players who disconnect mid-game remain on the leaderboard but can no longer score.
-- Clients are expected to follow the defined JSON protocol.
-- The server assumes well-formed configuration files.
+  before starting a game
+- If fewer players connect than required, the server will wait indefinitely
+- Players who disconnect mid-game remain on the leaderboard but can no longer score
+- Clients are expected to follow the defined JSON protocol
+- The server assumes well-formed configuration files
 
 ## Client Modes
 The client supports three different modes of playing:
@@ -79,17 +79,17 @@ The client supports three different modes of playing:
   The client answers questions manually via standard input
 
 - **automatic (`auto`)**  
-  Questions are answered programmatically with perfect accuracy.  
-  This mode exists to demonstrate deterministic problem-solving logic.
+  Questions are answered programmatically with perfect accuracy
+  This mode exists to demonstrate deterministic problem-solving logic
 
 - **AI (`ai`)**  
   Questions are forwarded to a locally running Ollama instance, and the AI’s
-  response is sent directly to the server without post-processing.
+  response is sent directly to the server without post-processing
 
 Note: The AI response is not guaranteed to always be correct
 
 ## Configuration Notes
-- As mentioned before, server and client behavior is configurable via JSON files.
+- As mentioned before, server and client behavior is configurable via JSON files
 - All textual output (questions, feedback, leaderboards etc.) can be modified without altering the source code
 - This allows for easier experimentation with pacing, difficulty, wording, localizations etc.
 - 
@@ -119,15 +119,15 @@ For a config to work, it must follow the following format:
 ## Troubleshooting
 
 **Server appears to hang on startup**
-- Ensure the number of connected clients matches the `players` value in the server config.
+- Ensure the number of connected clients matches the `players` value in the server config
 
 **Client connects, but nothing happens**
 - The game only starts after all required players have joined. (Must not forget the CONNECT <HOSTNAME>:<PORT> command)
-- Check that all clients are connecting to the same host and port.
+- Check that all clients are connecting to the same host and port
 
 **AI mode not responding**
 - Ensure Ollama is running locally and accessible at the configured host/port.
-- If Ollama is unavailable, use `manual` or `auto` mode instead.
+- If Ollama is unavailable, use `manual` or `auto` mode instead
 
 
 ## License
