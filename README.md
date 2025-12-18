@@ -19,8 +19,8 @@ A console-based trivia game built in Python using client-server architecture. Th
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/ttyoma/trivia-net.git
-cd trivia-net
+git clone https://github.com/ttyoma/Trivia.NET.git
+cd Trivia.NET
 ```
 
 #### 2. Start the server
